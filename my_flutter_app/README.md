@@ -16,3 +16,6 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 ## 项目结构：猫哥Getx
+
+## 命令
+- fvm list ：查看其 flutter sdk 的缓存地址并列出可用的sdk
