@@ -2,10 +2,10 @@ import 'package:get/get.dart';
 
 import 'index.dart';
 
-class AiLoginController extends GetxController {
-  AiLoginController();
+class AiPersonalController extends GetxController {
+  AiPersonalController();
 
-  final state = AiLoginState();
+  final state = AiPersonalState();
 
   // tap
   void handleTap(int index) {
@@ -13,6 +13,12 @@ class AiLoginController extends GetxController {
       "标题",
       "消息",
     );
+  }
+  
+  // 退出登录
+  void handleLogout() {
+    Get.back(); // 关闭底部弹窗
+    Get.offAllNamed('/'); // 返回登录页面
   }
 
   /// 在 widget 内存中分配后立即调用。

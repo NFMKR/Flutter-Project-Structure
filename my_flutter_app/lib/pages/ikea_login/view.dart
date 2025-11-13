@@ -9,20 +9,15 @@ class AiLoginPage extends GetView<AiLoginController> {
 
   // 主视图
   Widget _buildView() {
-    return const HelloWidget();
+    return const LoginFormWidget();
   }
 
   @override
   Widget build(BuildContext context) {
-    return GetBuilder<AiLoginController>(
-      builder: (_) {
-        return Scaffold(
-          appBar: AppBar(title: const Text("ai_login")),
-          body: SafeArea(
-            child: _buildView(),
-          ),
-        );
-      },
+    return Scaffold(
+      body: SafeArea(
+        child: _buildView(),
+      ),
     );
   }
 }
