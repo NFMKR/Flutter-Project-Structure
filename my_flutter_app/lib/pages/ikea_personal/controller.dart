@@ -2,10 +2,10 @@ import 'package:get/get.dart';
 
 import 'index.dart';
 
-class AiPersonalController extends GetxController {
-  AiPersonalController();
+class IkeaPersonalController extends GetxController {
+  IkeaPersonalController();
 
-  final state = AiPersonalState();
+  final state = IkeaPersonalState();
 
   // tap
   void handleTap(int index) {

@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-class AiPersonalState {
+class IkeaPersonalState {
   // title
   final _title = "".obs;
   set title(value) => _title.value = value;

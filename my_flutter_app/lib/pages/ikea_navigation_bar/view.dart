@@ -16,7 +16,7 @@ class IkeaNavigationBarPage extends GetView<IkeaNavigationBarController> {
       const Center(child: Text('分类页面')),
       const Center(child: Text('灵感页面')),
       const Center(child: Text('购物袋页面')),
-      const AiPersonalPage(),
+      const IkeaPersonalPage(),
     ];
     
     return GetBuilder<IkeaNavigationBarController>(

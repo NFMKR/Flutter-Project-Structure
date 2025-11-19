@@ -2,9 +2,9 @@ import 'package:get/get.dart';
 
 import 'controller.dart';
 
-class AiPersonalBinding implements Bindings {
+class IkeaPersonalBinding implements Bindings {
   @override
   void dependencies() {
-    Get.lazyPut<AiPersonalController>(() => AiPersonalController());
+    Get.lazyPut<IkeaPersonalController>(() => IkeaPersonalController());
   }
 }

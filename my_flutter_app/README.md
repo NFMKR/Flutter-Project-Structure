@@ -1,4 +1,4 @@
-# my_flutter_app
+# my_ikea_flutter_app
 
 A new Flutter project.
 
