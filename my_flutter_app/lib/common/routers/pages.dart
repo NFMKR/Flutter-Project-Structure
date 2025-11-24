@@ -6,6 +6,8 @@ import '../../pages/ikea_navigation_bar/bindings.dart';
 import '../../pages/ikea_navigation_bar/view.dart';
 import '../../pages/ikea_personal/bindings.dart';
 import '../../pages/ikea_personal/view.dart';
+import '../../pages/ikea_inspiration/bindings.dart';
+import '../../pages/ikea_inspiration/view.dart';
 
 class RoutePages {
   // 列表
@@ -24,6 +26,11 @@ class RoutePages {
       name: '/personal',
       page: () => const IkeaPersonalPage(),
       binding: IkeaPersonalBinding(),
+    ),
+    GetPage(
+      name: '/inspiration',
+      page: () =>  IkeaInspirationView(),
+      binding: IkeaInspirationBindings(),
     ),
   ];
 }

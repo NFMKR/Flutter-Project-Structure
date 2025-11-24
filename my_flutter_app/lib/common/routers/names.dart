@@ -5,4 +5,5 @@ class RouteNames {
   static const login = '/login';
   static const home = '/home';
   static const personal = '/personal';
+  static const inspiration = '/inspiration';
 }

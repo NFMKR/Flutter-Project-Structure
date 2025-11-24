@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 
 import '../index.dart';
 
-/// 个人页面组件
+// 个人页面组件
 class PersonalWidget extends GetView<IkeaPersonalController> {
   const PersonalWidget({Key? key}) : super(key: key);
 
